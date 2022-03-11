@@ -48,6 +48,5 @@ for (let i = 1; i <= 100; i++) {
         <div class="card">
             <div class="number normal"> ${i} </div>
         </div>`
-    }
-    
+    }   
 }
