@@ -13,9 +13,12 @@ Applica uno stile differente a seconda del valore dell'indice per i multipli di 
 //stampo in console i numeri da 1 a 100
 
 //prendo il div contenitore
-let box = document.getElementById('test')
+let box = document.getElementById('card_container')
 
 //ciclo per scrivere da 1 a 100 nel div
-for (let i = 0; i <= 100; i++) {
-    box.innerHTML += i;
+for (let i = 1; i <= 100; i++) {
+    box.innerHTML += `
+    <div class="card">
+        <div class="number">${i}</div>
+    </div`;
 }

@@ -1,0 +1,41 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #083b4c;
+}
+
+/* title */
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  flex-basis: calc(100% / 7);
+}
+
+.number {
+  background-color: aqua;
+  margin: 10px 10px;
+  padding: 30px 0;
+  font-size: 1.2em;
+}
