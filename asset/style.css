@@ -34,8 +34,23 @@ body {
 }
 
 .number {
-  background-color: aqua;
   margin: 10px 10px;
   padding: 30px 0;
   font-size: 1.2em;
+}
+
+.normal {
+  background-color: #1389b2;
+}
+
+.fizzbuzz {
+  background-color: #f0466f;
+}
+
+.fizz {
+  background-color: #0bd6a1;
+}
+
+.buzz {
+  background-color: #ffd166;
 }
